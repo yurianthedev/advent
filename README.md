@@ -4,7 +4,7 @@ These are my solutions for the advent of code of all years. They've been done in
 
 - [ ] Year 2022 [[Rust](rust/modules/y22/)].
   - [x] [Day 1](rust/modules/y22/d01/).
-- [ ] Year 2021 [[Haskell](haskell/src/Year2021/) | [Rust](rust/year21/) | [Scala](scala/src/main/scala/dev/yurianx/year2021/)].
+- [ ] Year 2021 [[Haskell](haskell/src/Year2021/) | [Rust](rust/y21/) | [Scala](scala/src/main/scala/solutions/y21/)].
   - [x] Day 1 [[Scala](scala/src/main/scala/solutions/y21/Day01.scala)].
   - [x] Day 2 [[Scala](scala/src/main/scala/solutions/y21/Day02.scala)].
   - [x] Day 3 [[Scala](scala/src/main/scala/solutions/y21/Day03.scala)].
