@@ -7,8 +7,12 @@
 			"path": "rust"
 		},
 		{
-			"path": "."
+			"path": "scala"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.watcherExclude": {
+			"**/target": true
+		}
+	}
 }

@@ -6,14 +6,14 @@ These are my solutions for the advent of code of all years. They've been done in
   - [x] [Day 1](rust/year22/day01/).
     - [x] Part I.
     - [x] Part II.
-- [ ] Year 2021 [[Haskell](haskell/src/Year2021/) | [Rust](rust/year21/)].
-  - [x] Day 1 (Link unavailable).
+- [ ] Year 2021 [[Haskell](haskell/src/Year2021/) | [Rust](rust/year21/) | [Scala](scala/src/main/scala/dev/yurianx/year2021/)].
+  - [x] [Day 1](scala/src/main/scala/dev/yurianx/year2021/Day01.scala).
     - [x] Part I.
     - [x] Part II.
-  - [x] Day 2 (Link unavailable).
+  - [x] [Day 2](scala/src/main/scala/dev/yurianx/year2021/Day02.scala).
     - [x] Part I.
     - [x] Part II.
-  - [x] Day 3 (Link unavailable).
+  - [x] [Day 3](scala/src/main/scala/dev/yurianx/year2021/Day03.scala).
     - [x] Part I.
     - [x] Part II.
   - [x] [Day 4](haskell/src/Year2021/Day04.hs).
