@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "haskell"
+		},
+		{
+			"path": "rust"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
