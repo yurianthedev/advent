@@ -34,12 +34,15 @@ fn first(input: String, lens_to_find: &[u8]) -> i32 {
 }
 
 fn second(input: String) -> i32 {
-    input.lines().map(|line| {
-        let mut parts = line.splitn(2, '|').map(|s| s.trim());
-        let obs = parts.next().unwrap().split_whitespace();
-        println!("{:?}", obs);
-        todo!()
+    let iter = input.lines().map(|line| {
+        let mut parts = line.splitn(2, '|').map(|s| {
+            s.split_whitespace()
+                .map(|w| w.trim().chars().collect())
+                .collect::<Vec<Vec<char>>>()
+        });
+
+        let (obs, display) = (parts.next().unwrap(), parts.next().unwrap());
     });
 
-    todo!()
+    0
 }

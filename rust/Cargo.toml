@@ -1,2 +1,2 @@
 [workspace]
-members = ['year*/day*', 'utils']
+members = ['modules/y[1-2][0-9]/d[0-3][0-9]', 'modules/utils']

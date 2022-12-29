@@ -11,12 +11,12 @@ name = "utils"
 version = "0.1.0"
 
 [[package]]
-name = "year21_day07"
-version = "0.1.0"
-
-[[package]]
-name = "year21_day08"
+name = "y21d08"
 version = "0.1.0"
 dependencies = [
  "utils",
 ]
+
+[[package]]
+name = "year21_day07"
+version = "0.1.0"
