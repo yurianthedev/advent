@@ -1,11 +1,15 @@
-package dev.yurianx.year2021
+package land.yurian
+package solutions.y21
 
 import cats.Applicative
-import cats.effect.{ExitCode, IO, IOApp}
+import cats.effect.ExitCode
+import cats.effect.IO
+import cats.effect.IOApp
 import cats.implicits.*
-import dev.yurianx.utils.IOUtils
 
 import scala.annotation.tailrec
+
+import utils.IOUtils
 
 object Day03 extends IOApp {
 

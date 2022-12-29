@@ -1,9 +1,13 @@
-package dev.yurianx.year2021
+package land.yurian
+package solutions.y21
 
 import cats.Applicative
-import cats.effect.{ExitCode, IO, IOApp}
+import cats.effect.ExitCode
+import cats.effect.IO
+import cats.effect.IOApp
 import cats.implicits.*
-import dev.yurianx.utils.IOUtils
+
+import utils.IOUtils
 
 object Day02 extends IOApp {
 
@@ -33,8 +37,8 @@ object Day02 extends IOApp {
       .pure
 
   def findPosWithAim[F[_]: Applicative](
-                                         list: Seq[InstructionLine]
-                                       ): F[(Int, Int, Int)] = {
+      list: Seq[InstructionLine]
+  ): F[(Int, Int, Int)] = {
     println(list)
 
     list
@@ -50,8 +54,8 @@ object Day02 extends IOApp {
   }
 
   def mapLineToInstructionLine[F[_]: Applicative](
-                                                   list: Seq[String]
-                                                 ): F[Seq[InstructionLine]] =
+      list: Seq[String]
+  ): F[Seq[InstructionLine]] =
     list.map { s =>
       val ss = s.split(' ')
       (Instruction.valueOf(ss(0).capitalize), ss(1).toInt)

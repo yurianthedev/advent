@@ -1,11 +1,15 @@
-package dev.yurianx.year2021
+package land.yurian
+package solutions.y21
 
 import cats.Applicative
-import cats.effect.{ExitCode, IO, IOApp}
+import cats.effect.ExitCode
+import cats.effect.IO
+import cats.effect.IOApp
 import cats.implicits.*
-import dev.yurianx.utils.IOUtils
 
 import scala.annotation.tailrec
+
+import utils.IOUtils
 
 object Day01 extends IOApp {
 
@@ -15,7 +19,6 @@ object Day01 extends IOApp {
     _      <- IO.println(solve1)
     _      <- IO.println(solve2)
   } yield ()).as(ExitCode.Success)
-
 
   def solve: IO[Int] = for {
     filePath <- IOUtils.getPath[IO]("day01_input.txt")

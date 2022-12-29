@@ -1,7 +1,9 @@
-package dev.yurianx.utils
+package land.yurian
+package utils
 
 import cats.Applicative
-import cats.effect.{IO, Resource}
+import cats.effect.IO
+import cats.effect.Resource
 import cats.implicits.*
 
 import java.io.*
