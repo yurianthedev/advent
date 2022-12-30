@@ -15,3 +15,6 @@ These are my solutions for the advent of code of all years. They've been done in
   - [x] Day 8 [[Rust](rust/modules/y21/d08/)].
     - [x] Part I.
     - [ ] Part II.
+- [ ] Year 2020 [[Elxir](elixir/lib/y20/) | [Go](go/y20)].
+  - [x] Day 1 [[Go](go/y20/d01/)]
+  - [x] Day 2 [[Elixir](elixir/lib/y20/d02.exs)]

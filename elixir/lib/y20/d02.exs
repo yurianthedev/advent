@@ -1,5 +1,7 @@
-defmodule Day02 do
-  @input_path "lib/inputs/day_02_input.txt"
+defmodule Advent.Y20.D02 do
+  alias Advent.Utils.Reader
+
+  @input_path "inputs/day_02_input.txt"
 
   def count_valid_passwords(path \\ @input_path, part \\ :fp)
 
@@ -7,6 +9,7 @@ defmodule Day02 do
     Reader.read_file!(path)
     |> Stream.map(&parse_line/1)
     |> Enum.count(&pwd_is_valid?/1)
+    |> IO.puts()
   end
 
   def count_valid_passwords(path, :sp) do
@@ -39,3 +42,5 @@ defmodule Day02 do
     (fp and not lp) or (not fp and lp)
   end
 end
+
+Advent.Y20.D02.count_valid_passwords()
