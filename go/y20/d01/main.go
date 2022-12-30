@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/yurianxdev/advent-2020/utility"
+	"github.com/yurianthedev/advent/utility"
 )
 
 func main() {
@@ -13,6 +13,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("error reading input: %v", err)
 	}
+
 	var result int
 	for i := range data {
 		for j := 1; j < len(data); j++ {

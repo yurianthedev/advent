@@ -2,7 +2,7 @@ package utility
 
 import (
 	"fmt"
-	"io/ioutil"
+	"os"
 	"strings"
 )
 
@@ -15,10 +15,10 @@ func ReadInput(day string, example bool) ([]string, error) {
 	}
 
 	path := fmt.Sprintf("%s/%s", day, file)
-	content, err := ioutil.ReadFile(path)
+	content, err := os.ReadFile(path)
 	if err != nil {
 		path = file
-		content, err = ioutil.ReadFile(path)
+		content, err = os.ReadFile(path)
 
 		if err != nil {
 			return nil, err

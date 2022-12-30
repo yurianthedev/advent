@@ -3,7 +3,7 @@ package utility_test
 import (
 	"testing"
 
-	"github.com/yurianxdev/advent-2020/utility"
+	"github.com/yurianthedev/advent/utility"
 )
 
 func TestReadInput(t *testing.T) {
