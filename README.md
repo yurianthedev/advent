@@ -1,4 +1,4 @@
-# yurian's Advent of Code 
+# yurian's Advent of Code
 
 These are my solutions for the advent of code of all years. They've been done in multiple programming languages using different build tools, therefore, please use this index as reference to where to find each solution.
 
@@ -15,6 +15,7 @@ These are my solutions for the advent of code of all years. They've been done in
   - [x] Day 8 [[Rust](rust/modules/y21/d08/)].
     - [x] Part I.
     - [ ] Part II.
+  - [x] Day 9 [[Haskell](/haskell/src/Year2021/Day09.hs)].
 - [ ] Year 2020 [[Elxir](elixir/lib/y20/) | [Go](go/y20)].
   - [x] Day 1 [[Go](go/y20/d01/)]
   - [x] Day 2 [[Elixir](elixir/lib/y20/d02.exs)]

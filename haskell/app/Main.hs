@@ -1,6 +1,7 @@
 module Main (main) where
 
-import Year2021.Day06 (run)
+import Control.Monad (void)
+import Year2021.Day09 (run)
 
 main :: IO ()
-main = run
+main = void run

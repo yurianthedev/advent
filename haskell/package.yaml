@@ -1,10 +1,10 @@
 name: advent
 version: 0.1.0.0
-github: 'yurianthedev/advent'
+github: "yurianthedev/advent"
 license: BSD3
-author: 'yurianthedev'
-maintainer: 'me@yurian.land'
-copyright: '2022 yurian.land'
+author: "yurianthedev"
+maintainer: "me@yurian.land"
+copyright: "2022 yurian.land"
 
 extra-source-files:
   - README.md
@@ -25,6 +25,7 @@ dependencies:
   - text
   - text-conversions
   - containers
+  - array
 
 ghc-options:
   - -Wall
